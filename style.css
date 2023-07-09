@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #fff0c7;
+    font-family: sans-serif;
+}
+.heading{
+    margin-top: -500px;
+    margin-left: 40px;
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif ;
+    text-align: center;
+}
+.india{
+    font-size: 100px;
+}
+
+.nav{
+   list-style: none;
+   margin-top: -320px;
+   display: flex;
+   align-content: center;
+}
+.nav li{
+    margin-left: 28px;
+    color: rgb(5, 16, 94);
+    font-size: 15px;
+    cursor: pointer;
+    border: 2px solid black;
+    width: 120px;
+    height: 18px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.nav li:hover{
+    background-image:linear-gradient(rgb(250, 150, 88), rgb(254, 254, 253),rgb(116, 238, 116));
+    color:rgb(1, 1, 73);
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 1.5s;
+    transform: scale(1.3);
+}
+
+/* main */
+main{
+    margin-top: 700px;
+}
+
+.container{
+    margin-left: 10%;
+}
+
+.item{
+    display: grid;
+    grid-template-rows: 400px 100px;
+    /* border: 2px solid orange; */
+    width: 1000px;
+    height: 450px;
+    align-items: center;
+    text-align: center;
+    margin-top: 0px;
+}
+.name{
+    margin-top: 50px;
+    font-size: 45px;
+    text-align: left;
+    margin-left: 20px;
+}
+.info{
+    font-size: 17px;
+    color: rgb(152, 101, 5);
+}
+.para{
+    margin-top: 15px;
+    width: 400px;
+    margin-left: 20px;
+    text-align: left;
+}
+.info-display{
+    display: flex;
+}
+.item img{ 
+    margin-top: 50px;
+    margin-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 20px;
+}
+
+/* box-shadow taken from CSS Scan */
+
+.line{
+    margin-top: 15px;
+    width: 400px;
+    margin-left: 20px;
+    color: orange;
+    height: 2px;
+    background-color: orange;
+    border: 0px solid orange;
+}
+.link{
+    border: 2px solid orange;
+    width: 150px;
+    height: 25px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -120px;
+    color: orange;
+}
+.link:hover{
+    background-color: orange;
+    color: white;
+}
+#taj,#hawa,#red-fort,#gold,#amerfort,#indiagate,#qutub,#victoria{
+    margin-top: 50px;
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(5, 16, 94);
+}
+
+#home{
+    margin-top: 20px;
+}
+
+.end-line{
+    width: 900px;
+   margin-left: 15%;
+   height: 2px;
+   color: orange;
+   background-color: orange;
+   border: none;
+}
+footer{
+    min-height: 40vh;
+}
+footer h1{
+   margin-top: 100px;
+   margin-left: 40%;
+   color:rgb(152, 101, 5);
+}
+footer h4{
+    margin-top: 200px;
+    margin-left: 40%;
+    color:rgb(152, 101, 5);
+ }
+
+audio{
+    margin-top: 20px;
+    margin-left: 38%;
+}
+
+.mail{
+    margin-left: 40%;
+}
