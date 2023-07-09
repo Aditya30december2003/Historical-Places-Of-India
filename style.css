@@ -161,3 +161,65 @@ audio{
 .mail{
     margin-left: 40%;
 }
+/* responsive */
+@media (max-width:400px){
+    .nav-bar{
+        display: none;
+    }
+    header img{
+        width: 100%;
+        height: 70vh;
+    }
+    .info-display{
+        display: flex;
+        flex-direction: column;
+    }
+    .info-display img{
+        margin-top: 30px;
+        width: 250px;
+        height: 180px;
+        margin-left: 20px;
+    }
+    .info{
+        font-size: 10px;
+    }
+    .line{
+          width: 250px;
+    }
+    .para{
+        width: 250px;
+        text-align: center;
+    }
+    .name{
+        margin-left: 80px;
+        font-size: 25px;
+    }
+    .container{
+        margin-top: -350px;
+    }
+    .link{
+        margin-top: 50px;
+        margin-left: 60px;
+    }
+    #hawa,#red-fort,#gold,#victoria,#qutub,#indiagate,#amerfort{
+        margin-top: 50px;
+    }
+    .end-line{
+        width: 270px;
+        margin-top: 100px;
+    }
+    audio{
+        width: 200px;
+        margin-left: 100px;
+    }
+    footer h1{
+        font-size: 25px;
+        margin-left:100px ;
+    }
+    footer{
+        min-height: 20vh;
+    }
+    .mail{
+        margin-left: 60px;
+    }
+}
