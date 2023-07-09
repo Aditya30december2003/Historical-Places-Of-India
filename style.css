@@ -162,7 +162,7 @@ audio{
     margin-left: 40%;
 }
 /* responsive */
-@media (max-width:400px){
+/* @media (max-width:400px){
     .nav-bar{
         display: none;
     }
@@ -223,3 +223,4 @@ audio{
         margin-left: 60px;
     }
 }
+ */
