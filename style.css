@@ -9,6 +9,9 @@ body{
     background-color: #fff0c7;
     font-family: sans-serif;
 }
+header img{
+    width:100%;
+}
 .heading{
     margin-top: -500px;
     margin-left: 40px;
